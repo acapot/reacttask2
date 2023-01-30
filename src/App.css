@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  background-color: #5b5c5f;
+}
+
+body {
+  /*background-color: #282c34;*/
+  background-color: #4b4c51;
+  color: aliceblue;
+}
+
+.list {
+  text-align: left;
+  max-width: 750px;
+  margin: auto;
+}
+
+.submit-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.edit-form {
+  max-width: 300px;
+  margin: auto;
+}

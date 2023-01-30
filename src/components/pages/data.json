@@ -1,0 +1,55 @@
+[{
+  "id": 1, 
+  "firstName": "Alexis", 
+  "lastName": "Capot", 
+  "age": 45, 
+  "birthdate": "73/06/05",
+  "country": "Sweden",
+  "city": "Växjö"
+  },
+  {
+  "id": 2, 
+  "firstName": "Jaime", 
+  "lastName": "Mondaca", 
+  "age": 25, 
+  "birthdate": "93/06/05",
+  "country": "Chile",
+  "city": "Santiago"
+  },
+  {
+    "id": 3, 
+    "firstName": "Laura", 
+    "lastName": "Miranda", 
+    "age": 35, 
+    "birthdate": "73/06/05",
+    "country": "Sweden",
+    "city": "Växjö"
+    },
+    {
+    "id": 4, 
+    "firstName": "Jaime", 
+    "lastName": "Mondaca", 
+    "age": 25, 
+    "birthdate": "93/06/05",
+    "country": "Chile",
+    "city": "Santiago"
+    },
+    {
+      "id": 5, 
+      "firstName": "Åsa", 
+      "lastName": "Gutierrez", 
+      "age": 45, 
+      "birthdate": "73/06/05",
+      "country": "Sweden",
+      "city": "Växjö"
+      },
+      {
+      "id": 6, 
+      "firstName": "Gabriel", 
+      "lastName": "Perez", 
+      "age": 20, 
+      "birthdate": "03/06/05",
+      "country": "Sweden",
+      "city": "Växjö"
+      }
+]
