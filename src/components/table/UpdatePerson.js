@@ -14,8 +14,8 @@ const UpdatePerson = ({person, changeShowUpdate, handleReload}) => {
     //console.log(JSON.stringify(currentPerson))
   };
 
-  const updatePerson = () => {
-  
+  const updatePerson = event => {
+    event.preventDefault();
     PeopleService.update(currentPerson)
       .then(response => {
         setCurrentPerson({...currentPerson});
@@ -45,7 +45,7 @@ const UpdatePerson = ({person, changeShowUpdate, handleReload}) => {
       <button type="button" className={`me-1 btn btn-success`} onClick={handleCloseClick}>Close</button>
         <br/>
         <h4>Update Person</h4>
-        <form>
+        <form onSubmit={updatePerson}>
         <div className="form-group">
               <label htmlFor="firstName">First Name</label>
               <input
@@ -95,7 +95,6 @@ const UpdatePerson = ({person, changeShowUpdate, handleReload}) => {
             type="submit"
             //className="badge badge-success"
             className="me-1 btn btn-primary"
-            onClick={updatePerson}
           >
             Update
           </button>
